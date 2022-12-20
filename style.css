@@ -71,9 +71,8 @@ p , span{
 .landtext{
     box-sizing: border-box;
     text-align: left;
-    position: relative;
-    top: 100px;
-    left: 300px;
+    margin-top: 100px;
+    margin-left: 320px;
 }
 .h1{
     letter-spacing: 35px;
@@ -81,7 +80,7 @@ p , span{
 .ahmed{
     font-family: 'poppins',sans-serif;
     font-style: normal;
-    letter-spacing: -4px;
+    letter-spacing: -2px;
     line-height: 90px;
     -webkit-text-stroke: 1px black;
     color: transparent;
