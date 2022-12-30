@@ -173,21 +173,20 @@ p , span{
 /* My Projects & My Skills */
 
 .details{
+    height: auto;
+    width: auto;
     display: inline-block;
-    margin-left: 15px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 100px;
     margin-bottom: 250px;
-    align-self: center;
-    justify-self: center;
-}
-.details span{
-    text-align: left;
-    margin-left: 0px;
+    overflow: hidden;
 }
 .details i{
     float: left;
-    font-size: 33px;
+    font-size: 30px;
     margin: 10px;
-    padding: 10px 20px;
+    padding: 10px 18px;
     color: black;
 }
 
@@ -206,6 +205,10 @@ p , span{
     height: 550px;
     width: 550px;
 }
+/* .awesomeimg{
+    width: 10px;
+    font-size: 10px;
+} */
 .myprojects img{
     width: 70%;
     height: 60%;
@@ -236,6 +239,11 @@ p , span{
     margin-left: 120px;
 }
 
+.awe img{
+    width: 70%;
+    height: 42%;
+    margin-bottom: 100px;
+}
 /* Finished */
 
 /* Contact me */
